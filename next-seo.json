@@ -1,0 +1,24 @@
+{
+  "title": "لنبني حياتهم",
+  "titleTemplate": "%s | لنبني حياتهم",
+  "description": "لنبني حياتهم",
+  "favicon": "/favicons/favicon.ico",
+  "additionalMetaTags": [
+    { "property": "author", "content": "joel hooks" },
+    {
+      "property": "keywords",
+      "content": ""
+    }
+  ],
+  "openGraph": {
+    "type": "website",
+    "site_name": "لنبني حياتهم",
+    "images": [
+      {
+        "url": "/images/og.jpg",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "Curriculum": {
+    "slug": "string",
+    "title": "string",
+    "description": "string",
+    "graphic": "image",
+    "lessons": ["Lesson"]
+  },
+
+  "Lesson": {
+    "slug": "string",
+    "title": "string",
+    "description": "string",
+    "graphic": "image",
+    "learningStyles": "string",
+    "bibleReference": "string",
+    "bibleVerse": "string",
+    "songs": ["Song"],
+    "materials": ["LinkAsset"]
+  },
+
+  "VideoCurriculum": {
+    "slug": "string",
+    "title": "string",
+    "description": "string",
+    "graphic": "image",
+    "lessons": ["VideoLesson"]
+  },
+
+  "VideoLesson": {
+    "slug": "string",
+    "title": "string",
+    "description": "string",
+    "graphic": "image",
+    "bibleVerse": "string",
+    "links": ["LinkAsset"],
+    "materials": ["LinkAsset"]
+  },
+
+  "StoryLesson": {
+    "slug": "string",
+    "title": "string",
+    "description": "string",
+    "preview": "image",
+    "materials": ["LinkAsset"]
+  },
+
+  "LinkAsset": {
+    "title": "string",
+    "link": "string"
+  },
+
+  "Song": {
+    "slug": "string",
+    "title": "string",
+    "songPreview": "LinkAsset",
+    "materials": ["LinkAsset"]
+  },
+
+  "Game": {
+    "slug": "string",
+    "title": "string",
+    "description": "string",
+    "songPreview": "LinkAsset",
+    "materials": ["LinkAsset"]
+  },
+
+  "Book": {
+    "slug": "string",
+    "title": "string",
+    "description": "string",
+    "materials": ["LinkAsset"]
+  },
+
+  "Play": {
+    "slug": "string",
+    "title": "string",
+    "description": "string",
+    "materials": ["LinkAsset"]
+  },
+
+  "Musical": {
+    "slug": "string",
+    "title": "string",
+    "description": "string",
+    "materials": ["LinkAsset"]
+  }
+}

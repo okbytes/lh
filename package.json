@@ -1,0 +1,40 @@
+{
+  "name": "linabni",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev",
+    "emu": "firebase emulators:start",
+    "build": "next build",
+    "start": "next start",
+    "both": "run-p dev emu"
+  },
+  "dependencies": {
+    "@analytics/google-analytics": "^0.5.2",
+    "@headlessui/react": "^0.3.1",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.0",
+    "analytics": "^0.7.3",
+    "autoprefixer": "^10.2.4",
+    "clsx": "^1.1.1",
+    "firebase": "^8.2.8",
+    "md5": "^2.3.0",
+    "next": "10.0.7",
+    "next-seo": "^4.19.0",
+    "postcss": "^8.2.6",
+    "preact": "^10.5.12",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.15.2",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "@firebase/auth-types": "^0.10.2",
+    "@types/md5": "^2.3.0",
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "npm-run-all": "^4.1.5",
+    "postcss-preset-env": "^6.7.0",
+    "typescript": "^4.1.5"
+  },
+  "license": "ISC"
+}
